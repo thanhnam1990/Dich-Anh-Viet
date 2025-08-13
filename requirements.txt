@@ -1,6 +1,7 @@
 flask
 python-telegram-bot==20.3
 deep-translator==1.11.4
+pypinyin
 eng-to-ipa
 gTTS
 openpyxl
