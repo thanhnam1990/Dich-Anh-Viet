@@ -12,6 +12,10 @@ import openpyxl
 from openpyxl.utils import get_column_letter
 from telegram.ext import MessageHandler, filters
 import eng_to_ipa as ipa
+from stay_alive import keep_alive
+
+
+keep_alive()
 
 # ==== File cấu hình ====
 ADMIN_FILE = "admins.json"
