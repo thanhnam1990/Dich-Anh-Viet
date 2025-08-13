@@ -459,7 +459,7 @@ async def admin_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def unknown(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         "❓ Lệnh không hợp lệ. Gõ /start để xem lệnh.\n\n"
-        "🎮 game Caro:\u2003\u2003@Game_carobot\n"
+        "🎮 game Caro:\u2003\u2003@Game_carobot")
 
 
 # ==== Khởi chạy Bot ====
